@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-watch app.js",
-    "build": "babel app.js --out-dir build",
-    "heroku-postbuild": "babel src --out-dir dist --copy-files"
+    "build": "babel app.js --out-dir build"
   },
   "author": "Simon Davis",
   "license": "ISC",
